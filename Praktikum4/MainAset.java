@@ -13,7 +13,6 @@ public class MainAset {
 
         ManajemenAset manajemen = new ManajemenAset();
 
-        // Menambahkan data aset IT
         manajemen.tambahAset(
             new AsetIT("A001", "Server", "Ruang Server", "Baik")
         );
